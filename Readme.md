@@ -8,11 +8,11 @@ Welcome to my repository focused on mastering **Data Structures** , **Dynamic Pr
 
 ### 🔹 Logic Programming
 
--Juego de duelo entre participantes y enemigos, visual tk
--Juego de baseball
--App farmacia
--App Evento de natación
--App Tienda de Productos varios
+- Juego de duelo entre participantes y enemigos, visual tk
+- Juego de baseball
+- App farmacia
+- App Evento de natación
+- App Tienda de Productos varios
 
 ---
 

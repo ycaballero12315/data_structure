@@ -1,39 +1,67 @@
-# Resolviendo los 400 Problemas con Python
+# 🧠 Data Structures & Dynamic Programming
 
-Estoy resolviendo los 400 problemas con Python, cubriendo desde el nivel básico hasta el nivel más difícil. A medida que avanzamos, los problemas se vuelven más complejos y desafiantes, lo que me ayuda a mejorar mi lógica de programación, habilidades de resolución de problemas y comprensión de algoritmos.
-
-## Niveles
-
-### Nivel Básico
-- Problemas orientados a la sintaxis básica de Python.
-- Enfoque en estructuras de datos fundamentales (listas, diccionarios, tuplas).
-- Uso de bucles, condicionales, funciones y manejo de errores.
-
-### Nivel Intermedio
-- Trabajar con estructuras de datos más avanzadas como pilas, colas, árboles y grafos.
-- Resolver problemas de complejidad algorítmica moderada.
-- Empezar a implementar algoritmos clásicos como búsqueda y ordenación.
-
-### Nivel Avanzado
-- Algoritmos y técnicas de programación dinámica.
-- Problemas complejos de grafos, combinatoria y matemáticas.
-- Optimización de soluciones con complejidad O(n) y O(log n).
-
-### Nivel Muy Difícil
-- Problemas de optimización avanzada y resolución de problemas en tiempo real.
-- Aplicación de algoritmos de alto rendimiento en contextos de gran escala.
-- Exploración de paradigmas como la programación funcional o la inteligencia artificial.
+Welcome to my repository focused on mastering **Data Structures** , **Dynamic Programming (DP)**, **Logic Programming**, **ETC**. This space is a collection of challenges, exercises, notes, and insights as I grow deeper into algorithmic thinking and efficient problem-solving.
 
 ---
 
-## Progreso
-**Nivel Actual:** [Avanzado]
-**Último Problema Resuelto:** [Define una neurona artificial y describe su función en una red neuronal]
-**Número Total de Problemas Resueltos:** [359]
+## 📘 Topics Covered
+
+### 🔹 Logic Programming
+
+-Juego de duelo entre participantes y enemigos, visual tk
+-Juego de baseball
+-App farmacia
+-App Evento de natación
+-App Tienda de Productos varios
 
 ---
 
-## Recursos Utilizados
-- **Plataformas**: [Añadir las plataformas que estás utilizando, como LeetCode, HackerRank, etc.]
-- **Libros**: [400 EJERCICIOS DE PYTHON DESDE NIVEL BÁSICO A AVANZADO CON APLICACIONES EN I.A., Think Like a Program an Introduction to Creative Problem]
-- **Documentación**: [fastapi.tiangolo.com, python.org]
+### 🔹 Data Structures
+
+- Arrays & Strings
+- Linked Lists (Singly, Doubly, Circular)
+- Stacks & Queues
+- Hash Tables
+- Trees (Binary, BST, AVL)
+- Graphs (DFS, BFS, Dijkstra)
+- Heaps (Min/Max)
+- Tries
+- Disjoint Sets (Union-Find)
+
+---
+
+### 🔹 Dynamic Programming
+
+- Memoization & Tabulation
+- 0/1 Knapsack
+- Longest Common Subsequence (LCS)
+- Longest Increasing Subsequence (LIS)
+- Matrix Chain Multiplication
+- Subset Sum / Partition Problem
+- Edit Distance
+- Coin Change
+- DP on Trees & Graphs
+
+---
+
+### 🔹 Sort and search
+
+- Binary Search
+- Binary Search with bicect
+- Recursive Sort
+
+---
+
+## 🛠 Languages & Tools
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+---
+
+## 📂 Repository Structure
+

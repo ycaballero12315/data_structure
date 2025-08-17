@@ -9,13 +9,13 @@ class Trabajar(ABC):
         pass
     
 
-class Comedor(ABC):
+class Comer(ABC):
     @abstractmethod
     def comer(self):
         pass
 
 
-class Persona(Trabajar, Comedor):
+class Persona(Trabajar, Comer):
     def __init__(self, name):
         super().__init__()
         self.name = name
@@ -28,6 +28,20 @@ class Persona(Trabajar, Comedor):
     
 
 class Robot(Trabajar):
+    def __init__(self, name):
+        super().__init__()
+        self.name = name
     def trabajador(self):
-        return 'El robot trabaja'
+        return f'El robot {self.name} trabaja mucho'
+
+class Ninno(Trabajar, Comer):
+    def __init__(self, name):
+        super().__init__()
+        self.name = name
+    
+    def trabajador(self):
+        return f'El niño {self.name} juega mucho'
+    
+    def comer(self):
+        return f"Come dulces {self.name}"
     

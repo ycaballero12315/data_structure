@@ -1,6 +1,9 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-
+"""El patrón Singleton garantiza que una clase tenga una única instancia 
+en todo el sistema, y proporciona un punto de acceso global a ella.
+En el contexto de bases de datos, esto es útil para evitar crear múltiples 
+engines o conexiones innecesarias, que pueden ser costosas o conflictivas."""
 
 class DatabaseSingleton:
     _instance = None
@@ -15,10 +18,22 @@ class DatabaseSingleton:
 
     def get_session(self):
         return self.Session()
+    def dispose(self):
+        """Cierra el engine y libera recursos."""
+        if self._instance:
+            self._instance.engine.dispose()
+            self._instance = None
+            print("Engine SQLAlchemy cerrado y recursos liberados.")
 
 
 # Uso
 db = DatabaseSingleton()
+db1 = DatabaseSingleton()
+
+# Verifica que ambos objetos sean la misma instancia
+print(db is db1)  # True → Ambos son la misma instancia
+
+# Ejemplo de uso de la sesión
 session1 = db.get_session()
 session2 = db.get_session()
 

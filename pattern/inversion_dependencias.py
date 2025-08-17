@@ -25,3 +25,11 @@ class App:
 # Inyección de dependencia
 app = App(PostgreSQL())
 app.db.connect()
+
+class AppTwo:
+    def __init__(self, db: DB):
+        self.db = db
+
+# Inyección de dependencia
+app_two = AppTwo(MySQL())
+app_two.db.connect()

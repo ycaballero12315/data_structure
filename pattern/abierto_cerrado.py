@@ -15,3 +15,6 @@ class DescuentoFijo(Descuento):
 class DescuentoPorCiento(Descuento):
     def calcular(self, saldo, descuento):
         return saldo * descuento
+    
+Descuento = DescuentoPorCiento()
+print(Descuento.calcular(1000, 0.1))
